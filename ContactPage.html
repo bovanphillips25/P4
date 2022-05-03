@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<head>
+<title>
+Contact Page
+</title>
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+          crossorigin="anonymous">
+<style>
+body{
+background-color: #FFCBA4;
+}
+h1{
+color: grey;
+text-align: center;
+border-style: double;
+border-color: black;
+background-color: aliceblue;
+}
+.form-group{
+color: blue;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: aliceblue;
+    color: grey;
+    text-align: center;
+    padding: 10px;
+    font-size: .7rem;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  margin-bottom: 100px;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.container {
+  padding: 2px 16px;
+}
+</style>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="row">
+            <nav class="navbar navbar-expand-md
+                    justify-content-start
+                    bg-dark navbar-dark
+                    col-12">
+
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <!-- Links -->
+                        <li class="nav-item">
+                            <a class="nav-link" href="homepage.html">Home Page</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="findmechanic.html">Find a Mechanic</a>
+                        </li>
+						<li class="nav-item">
+                            <a class="nav-link" href="diagnosis.html">Diagnosis</a>
+                        </li>
+						<li class="nav-item">
+                            <a class="nav-link" href="pricing.html">Pricing</a>
+                        </li>	
+						<li class="nav-item">
+                            <a class="nav-link" href="gettingparts.html">Getting Parts</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="ContactPage.html">Contact Me</a>
+                        </li>
+
+                    </ul>
+                </div>
+            </nav>
+			<h1>
+Contact Me
+</h1>
+ <form action="">
+                <div class="form-group">
+                    <label for="firstname">First Name:</label>
+                    <input type="text" class="form-control" id="firstname"
+                           placeholder="First name" name="firstname">
+                </div>
+				</br>
+				</br>
+                <div class="form-group">
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" class="form-control" id="lastname"
+                           placeholder="Last name" name="lastname">
+                </div>
+				</br>
+				</br>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" class="form-control" id="email"
+                           placeholder="Enter email" name="email">
+                </div>
+                <div class="form-group form-check">
+                    <label class="form-check-label">
+                        <input class="form-check-input"
+                               type="checkbox" name="subscribe"> Subscribe
+                    </label>
+                </div>
+				</br>
+				</br>
+				<p style="color: blue;"><label for="message">Send me a message:</label></p>
+				<textarea id="message" name="message" rows="4" cols="50">Send me a message.
+				</textarea>
+				</br>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+			<div class="card">
+  <img src="Me.jpg" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4><b>Bovan Phillips</b></h4>
+    <p>
+	Student at New Jersey Institute of Technology
+	</p>
+  </div>
+</div>
+<footer class="footer">
+<h2>
+©5/2/2022  Bovan Phillips
+</h2>
+</footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous">
+</html>
